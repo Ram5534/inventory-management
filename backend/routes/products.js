@@ -311,6 +311,9 @@ router.get("/debug/all", (req, res) => {
 });
 
 
+router.get("/test", (req, res) => {
+  res.send("API working");
+});
 
 
 
