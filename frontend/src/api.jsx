@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://proud-consideration-production-18a6.up.railway.app/",
+  baseURL: "https://proud-consideration-production-18a6.up.railway.app/",
 });
 
 // Attach token to every request
