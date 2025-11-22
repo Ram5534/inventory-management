@@ -40,8 +40,10 @@ export default function Products() {
   };
 
   const exportCSV = () => {
-    window.open("http://localhost:5000/api/export");
-  };
+  window.open(
+    "https://proud-consideration-production-18a6.up.railway.app/api/export"
+  );
+};
 
   return (
     <div className="page">
